@@ -1,0 +1,16 @@
+// fonts
+@font-face {
+    font-family: Irsans;
+    src: url(../fonts/IRANSansWeb/IRANSansWeb\(FaNum\).woff);
+}
+@font-face {
+    font-family: Irsansmobile;
+    src: url(../fonts/MobileFontsnum/IRANSansMobile\(FaNum\).ttf);
+}
+
+$font1 : Irsans , Irsansmobile;
+
+$bg-color1 : #34E89E;
+$bg-color2 : #0F3443;
+
+
