@@ -1,1 +1,34 @@
 @import 'variable';
+
+header 
+{
+    nav {
+        input {
+            display: none;
+        }
+        .icon {
+            display: none;
+        }
+    }
+    .menu {
+        color:#FFF;
+        font-family: $font;
+
+    }
+}
+
+@media  only screen and (min-width: 1280px) {
+
+}
+@media  only screen and (max-width: 1280px) {
+
+}
+@media  only screen and (max-width: 960px) {
+
+}
+@media  only screen and (max-width: 767px) {
+
+}
+@media  only screen and (max-width: 480px) {
+
+}
