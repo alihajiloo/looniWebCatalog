@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "ACCA,UAAU;EACN,WAAW,EAAE,MAAM;EACnB,GAAG,EAAE,mDAAqD;;;AAE9D,UAAU;EACN,WAAW,EAAE,YAAY;EACzB,GAAG,EAAE,wDAA0D",
     "sources": [
-        "content.scss"
+        "content.scss",
+        "_variable.scss"
     ],
     "names": [],
     "file": "content.css"

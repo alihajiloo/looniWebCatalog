@@ -1,1 +1,85 @@
-/* No CSS *//*# sourceMappingURL=header.css.map */
+@font-face {
+  font-family: Irsans;
+  src: url("../fonts/IRANSansWeb/IRANSansWeb(FaNum).woff");
+}
+
+@font-face {
+  font-family: Irsansmobile;
+  src: url("../fonts/MobileFontsnum/IRANSansMobile(FaNum).ttf");
+}
+
+.topHeader {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  background: linear-gradient(-50deg, #34E89E, #0F3443);
+  text-align: center;
+  -webkit-box-shadow: 0px 3px 6px 1px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 3px 6px 1px rgba(0, 0, 0, 0.4);
+  z-index: 20;
+}
+
+.topHeader .holder {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.topHeader .holder nav {
+  float: right;
+  width: 800px;
+  height: 80px;
+  overflow: hidden;
+  position: relative;
+}
+
+.topHeader .holder nav input {
+  display: none;
+}
+
+.topHeader .holder nav .icon {
+  display: none;
+}
+
+.topHeader .holder nav .menu {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.topHeader .holder nav .menu .item {
+  color: #FFF;
+  float: right;
+  padding: 5px 20px;
+  margin: 0 5px;
+  border-bottom: 0px solid #34E89E;
+  -webkit-transition: .6s;
+  transition: .6s;
+  font-family: Irsans;
+  cursor: pointer;
+}
+
+.topHeader .holder nav .menu .item:not(.sel):hover {
+  border-bottom: 1px solid #FFF;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.topHeader .holder nav .menu .sel {
+  border-bottom: 2px solid #FFF;
+}
+
+.topHeader .holder .icon {
+  float: left;
+  width: 300px;
+  line-height: 80px;
+  color: #5ca750;
+  font-size: 30px;
+  height: 80px;
+  background: url("../img/icon/Untitled-10.png") no-repeat 0 50%;
+  background-size: 110px;
+  font-family: "Comic Sans MS";
+}
+/*# sourceMappingURL=header.css.map */

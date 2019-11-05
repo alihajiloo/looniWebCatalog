@@ -1,1 +1,10 @@
-/* No CSS *//*# sourceMappingURL=content.css.map */
+@font-face {
+  font-family: Irsans;
+  src: url("../fonts/IRANSansWeb/IRANSansWeb(FaNum).woff");
+}
+
+@font-face {
+  font-family: Irsansmobile;
+  src: url("../fonts/MobileFontsnum/IRANSansMobile(FaNum).ttf");
+}
+/*# sourceMappingURL=content.css.map */
