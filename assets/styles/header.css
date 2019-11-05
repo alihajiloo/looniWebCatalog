@@ -54,7 +54,7 @@
   float: right;
   padding: 5px 20px;
   margin: 0 5px;
-  border-bottom: 0px solid #34E89E;
+  border-bottom: 0px solid rgba(255, 255, 255, 0);
   -webkit-transition: .6s;
   transition: .6s;
   font-family: Irsans;
