@@ -134,4 +134,11 @@
   position: relative;
   top: 100px;
 }
+
+.description {
+  height: 600px;
+  width: 1280px;
+  margin: 0 auto;
+  background: olive;
+}
 /*# sourceMappingURL=header.css.map */
