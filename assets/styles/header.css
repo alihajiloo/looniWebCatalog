@@ -28,6 +28,7 @@
   float: right;
   width: 800px;
   height: 80px;
+  margin-right: 25px;
   overflow: hidden;
   position: relative;
 }
@@ -75,11 +76,62 @@
   float: left;
   width: 300px;
   line-height: 80px;
+  margin-left: 25px;
   color: #5ca750;
   font-size: 30px;
   height: 80px;
   background: url("../img/icon/Untitled-10.png") no-repeat 0 50%;
   background-size: 110px;
   font-family: "Comic Sans MS";
+}
+
+.box1 {
+  width: 100%;
+  height: auto;
+  background: url("../img/iphonex.png") no-repeat 50% 150px, linear-gradient(-50deg, #34E89E, #0F3443);
+  background-size: 400px,100%;
+  text-align: center;
+}
+
+.box1 .holder {
+  position: relative;
+  width: 1280px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.box1 .holder .appBox {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  padding: 0 20px;
+  display: inline-block;
+  border-radius: 25px;
+  line-height: 50px;
+  color: #FFF;
+  background: rgba(255, 255, 255, 0.2);
+  -webkit-box-shadow: 0px 3px 4px 1px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 3px 4px 1px rgba(0, 0, 0, 0.4);
+  text-decoration: none;
+  font-family: Irsans;
+  -webkit-transition: .1s;
+  transition: .1s;
+}
+
+.box1 .holder .appBox:hover {
+  background: rgba(255, 255, 255, 0.3);
+  top: 23px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.box1 .holder .slogan {
+  font-family: Irsans;
+  font-size: 50px;
+  color: #FFF;
+  position: relative;
+  top: 100px;
 }
 /*# sourceMappingURL=header.css.map */
