@@ -1,4 +1,7 @@
 @import 'variable';
+body{
+    direction: rtl;
+}
 .topHeader {
     position: relative;
     width: 100%;
@@ -111,12 +114,42 @@
     height: 600px;
     width:1280px;
     margin: 0 auto;
-    background: olive;
     article{
+        float:right;
+        width: 810px;
+        padding: 70px 40px;
+        header{
+            font-family: $font;
+            font-size: 35px;
+            padding: 50px 0;
+            color: $txtColor1;
+        }
+        p{
+            font-family: $font;
+            font-size: 25px;
+            line-height: 40px;
+            padding: 40px 0;
+            color: $txtColor2;
+
+        }
 
     }
-    .mobile {
-        
+    .mobileScreen {
+        height: 100%;
+        float: left;
+        width: 30%;
+        .mobile{
+            width: 100%;
+            height: 100%;
+            background: url("../img/iphonex.png") no-repeat 50% 50%;
+            background-size: 300px;
+
+            position: relative;
+            top:0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
     }
 }
 
