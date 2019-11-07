@@ -153,6 +153,20 @@ body{
     }
 }
 
+.suggestion {
+    background: linear-gradient(-50deg, $bg-color2, $bg-color1);
+    height: 70px;
+    p{
+        line-height: 70px;
+        text-align: center;
+        color: $txtColorOnBg;
+        width: 1280px;
+        margin: 0 auto;
+        font-family: $font;
+        font-size: 20px;
+    }
+}
+
 
 @media  only screen and (min-width: 1280px) {
 

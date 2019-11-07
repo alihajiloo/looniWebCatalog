@@ -183,4 +183,19 @@ body {
   left: 0;
   right: 0;
 }
+
+.suggestion {
+  background: linear-gradient(-50deg, #0F3443, #34E89E);
+  height: 70px;
+}
+
+.suggestion p {
+  line-height: 70px;
+  text-align: center;
+  color: #FFF;
+  width: 1280px;
+  margin: 0 auto;
+  font-family: Irsans;
+  font-size: 20px;
+}
 /*# sourceMappingURL=header.css.map */
