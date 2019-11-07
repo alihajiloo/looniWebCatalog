@@ -198,4 +198,49 @@ body {
   font-family: Irsans;
   font-size: 20px;
 }
+
+.points {
+  overflow: hidden;
+}
+
+.points .holder {
+  width: 1240px;
+  padding: 30px 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.points .holder .item {
+  display: inline-block;
+  background: red;
+  margin: 20px;
+  width: 260px;
+  height: 390px;
+}
+
+.points .holder .item .pic {
+  background: #FFF;
+  -webkit-box-shadow: 0px 3px 8px 1px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 3px 8px 1px rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  margin: 20px;
+  height: 200px;
+  width: 200px;
+}
+
+.points .holder .item .title {
+  font-family: Irsans;
+  color: #3F5EAB;
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+
+.points .holder .item p {
+  display: inline-block;
+  height: 80px;
+  font-family: Irsans;
+  color: #666;
+  padding-bottom: 15px;
+  font-size: 18px;
+}
 /*# sourceMappingURL=header.css.map */
