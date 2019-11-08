@@ -104,22 +104,21 @@
 
 .points {
     overflow: hidden;
-
     .holder {
-
+        overflow: hidden;
         width: 1240px;
         padding: 30px 20px;
         margin: 0 auto;
         text-align: center;
         .item {
-            display: inline-block;
-            background: red;
+            float: right;
             margin: 20px ;
-            width: 260px;
+            width: 270px;
             height: 390px;
             .pic {
                 background: #FFF;
                 box-shadow: 0px 3px 8px 1px rgba(0,0,0,.5);
+                border-radius:100px ;
                 display: inline-block;
                 margin: 20px;
                 height: 200px;
@@ -134,14 +133,34 @@
             }
 
             p{
-                
                 display: inline-block;
                 height: 80px;
                 font-family: $font;
                 color:$txtColor2;
+                line-height: 25px;
                 padding-bottom: 15px;
                 font-size: 18px;
             }
+        }
+
+        .it1 .pic {
+            background: url("../img/fingerPrint/fingerPrint2.png") no-repeat 50% 50% ;
+            background-size: 160px;
+        }
+
+        .it2 .pic {
+            background: url("../img/speed/speed.png") no-repeat 50% 50% ;
+            background-size: 140px;
+        }
+
+        .it3 .pic {
+            background: url("../img/rahat/asan.png") no-repeat 65% 40% ;
+            background-size: 120px;
+        }
+
+        .it4 .pic {
+            background: url("../img/behine sazi/behine sazi.png") no-repeat 45% 50% ;
+            background-size: 130px;
         }
     }
 }
