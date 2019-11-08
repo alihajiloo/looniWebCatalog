@@ -184,4 +184,47 @@
   background: url("../img/behine sazi/behine sazi.png") no-repeat 45% 50%;
   background-size: 130px;
 }
+
+.contactUs {
+  background: #F4F4F4;
+  overflow: hidden;
+}
+
+.contactUs .holder {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.contactUs .holder h2 {
+  padding: 20px;
+  font-family: Irsans;
+  font-size: 30px;
+}
+
+.contactUs .holder > p {
+  padding: 20px;
+  font-family: Irsans;
+  color: #666;
+  font-size: 18px;
+  font-family: 20px;
+}
+
+.contactUs .holder span {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  margin-left: 0;
+  margin-right: 0;
+  font-family: Irsans;
+  font-size: 23px;
+  font-family: 20px;
+}
+
+.contactUs .holder span .line {
+  background: #999;
+  height: 1px;
+  width: 200px;
+  margin: 5px auto;
+}
 /*# sourceMappingURL=content.css.map */

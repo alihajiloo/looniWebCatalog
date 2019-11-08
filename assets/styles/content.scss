@@ -164,3 +164,47 @@
         }
     }
 }
+
+.contactUs{
+    background: #F4F4F4;
+    overflow: hidden;
+
+    .holder {
+        width: 1280px;
+        margin: 0 auto;
+
+        h2 {
+            padding: 20px;
+            font-family: $font;
+            font-size: 30px;
+        }
+
+        & > p {
+            padding: 20px;
+            font-family: $font;
+            color: $txtColor2;
+            font-size: 18px;
+            font-family: 20px;
+        }
+
+        span {
+            display: inline-block;
+            text-align: center;
+            width: 100%;
+            padding: 20px;
+            margin-left: 0;
+            margin-right: 0;
+            font-family: $font;
+            font-size: 23px;
+            font-family: 20px;
+
+            .line {
+                background: #999;
+                height: 1px;
+                width: 200px;
+                margin: 5px auto;
+            }
+
+        }
+    }
+}
