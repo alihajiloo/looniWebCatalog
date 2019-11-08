@@ -1,1 +1,147 @@
 @import 'variable';
+
+
+.box1 {
+    width: 100%;
+    height: auto;
+    background: url("../img/iphonex.png") no-repeat 50% 150px, linear-gradient(-50deg, $bg-color1, $bg-color2);
+    background-size:400px,100% ;
+    text-align: center;
+    .holder{
+        position: relative;
+        width: 1280px;
+        height: 500px;
+        margin: 0 auto;
+        .appBox {
+            position: absolute;
+            top:20px;
+            left:30px;
+            padding: 0 20px;
+            display: inline-block;
+            border-radius: 25px;
+            line-height: 50px;
+            color:$txtColorOnBg;
+            background: rgba(255,255,255,.2);
+            box-shadow: 0px 3px 4px 1px rgba(0,0,0,.4);
+            text-decoration: none;
+            font-family: $font;
+            transition: .1s;
+            &:hover {
+                background: rgba(255,255,255,.3);
+                top:23px;
+                box-shadow: none;
+                transition: .2s;
+            }
+        }
+        .slogan {
+            font-family: $font;
+            font-size: 50px;
+            color: $txtColorOnBg;
+            position: relative;
+            top:100px;
+
+        }
+    }
+    
+}
+
+.description {
+    height: 600px;
+    width:1280px;
+    margin: 0 auto;
+    article{
+        float:right;
+        width: 810px;
+        padding: 70px 40px;
+        header{
+            font-family: $font;
+            font-size: 35px;
+            padding: 50px 0;
+            color: $txtColor1;
+        }
+        p{
+            font-family: $font;
+            font-size: 25px;
+            line-height: 40px;
+            padding: 40px 0;
+            color: $txtColor2;
+
+        }
+
+    }
+    .mobileScreen {
+        height: 100%;
+        float: left;
+        width: 30%;
+        .mobile{
+            width: 100%;
+            height: 100%;
+            background: url("../img/iphonex.png") no-repeat 50% 50%;
+            background-size: 300px;
+
+            position: relative;
+            top:0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+    }
+}
+
+.suggestion {
+    background: linear-gradient(-50deg, $bg-color2, $bg-color1);
+    height: 70px;
+    p{
+        line-height: 70px;
+        text-align: center;
+        color: $txtColorOnBg;
+        width: 1280px;
+        margin: 0 auto;
+        font-family: $font;
+        font-size: 20px;
+    }
+}
+
+.points {
+    overflow: hidden;
+
+    .holder {
+
+        width: 1240px;
+        padding: 30px 20px;
+        margin: 0 auto;
+        text-align: center;
+        .item {
+            display: inline-block;
+            background: red;
+            margin: 20px ;
+            width: 260px;
+            height: 390px;
+            .pic {
+                background: #FFF;
+                box-shadow: 0px 3px 8px 1px rgba(0,0,0,.5);
+                display: inline-block;
+                margin: 20px;
+                height: 200px;
+                width: 200px;
+            }
+
+            .title {
+                font-family: $font;
+                color:#3F5EAB;
+                padding-bottom: 20px;
+                font-size: 25px;
+            }
+
+            p{
+                
+                display: inline-block;
+                height: 80px;
+                font-family: $font;
+                color:$txtColor2;
+                padding-bottom: 15px;
+                font-size: 18px;
+            }
+        }
+    }
+}
