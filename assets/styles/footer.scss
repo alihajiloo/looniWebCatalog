@@ -1,1 +1,112 @@
 @import 'variable';
+
+footer {
+    overflow: hidden;
+    background: linear-gradient(-50deg, $bg-color1, $bg-color2);
+    margin-top: 40px;
+    padding-top: 60px;
+    box-shadow: 0 -3px 6px 1px rgba(0,0,0,.4);
+
+    .holder {
+        width: 1280px;
+        //height: 220px;
+        margin: 0 auto;
+
+        .right{
+            width: 530px;
+            height: 80px;
+            padding: 50px;
+            float: right;
+            text-align: left;
+
+
+            header {
+                text-align: left;
+                color: $txtColorOnBg;
+                font-family: $font;
+                font-size: 18px;
+                margin: 0 5px;
+            }
+
+            .item {
+                display: inline-block;
+                height: 40px;
+                width: 40px;
+                margin: 15px 3px;
+                div {
+                    width: 100%;
+                    height: 100%;
+                }
+
+                .telegram {
+                    background: url("../img/telegram/telegram.png") no-repeat 50% 50%;
+                    background-size:70px ;
+                }
+    
+                .instagram {
+                    background: url("../img/instagram/intagram.png") no-repeat 50% 50%;
+                    background-size:55px ;
+                }
+    
+                .twitter {
+                    background: url("../img/twitter/twitter2.png") no-repeat 50% 50%;
+                    background-size:55px ;
+                }
+            }
+
+        }
+
+        .left{
+            width: 550px;
+            height: 100px;
+            padding: 40px;
+            float: left;
+            border-right:1px solid black  ;
+
+            .item {
+                margin: 20px 20px;
+                height: 40px;
+                line-height: 40px;
+                color: $txtColor1;
+                font-family: $font;
+
+                span {
+                    float: right;
+                    padding: 0 4px;
+                    height: 40px;
+                    color: $txtColorOnBg;
+                    font-size: 15px;
+
+                }
+
+                .icon {
+                    float: right;
+                    height: 40px;
+                    width: 40px;
+                    padding: 0 10px;
+
+                    
+
+                    
+                }
+                .tel {
+                    background: url("../img/phone/3.png") no-repeat 50% 50%;
+                    background-size:40px ;
+                }
+                .email {
+                    background: url("../img/email/Untitled-3.png") no-repeat 50% 50%;
+                    background-size:55px ;
+                }
+
+            }
+            
+        }
+    }
+
+    & > p {
+        font-family: $font;
+        color: $txtColorOnBg;
+        padding: 0 25px;
+        line-height: 50px;
+    }
+}

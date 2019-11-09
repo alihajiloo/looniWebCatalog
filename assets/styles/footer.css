@@ -7,4 +7,109 @@
   font-family: Irsansmobile;
   src: url("../fonts/MobileFontsnum/IRANSansMobile(FaNum).ttf");
 }
+
+footer {
+  overflow: hidden;
+  background: linear-gradient(-50deg, #34E89E, #0F3443);
+  margin-top: 40px;
+  padding-top: 60px;
+  -webkit-box-shadow: 0 -3px 6px 1px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 -3px 6px 1px rgba(0, 0, 0, 0.4);
+}
+
+footer .holder {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+footer .holder .right {
+  width: 530px;
+  height: 80px;
+  padding: 50px;
+  float: right;
+  text-align: left;
+}
+
+footer .holder .right header {
+  text-align: left;
+  color: #FFF;
+  font-family: Irsans;
+  font-size: 18px;
+  margin: 0 5px;
+}
+
+footer .holder .right .item {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  margin: 15px 3px;
+}
+
+footer .holder .right .item div {
+  width: 100%;
+  height: 100%;
+}
+
+footer .holder .right .item .telegram {
+  background: url("../img/telegram/telegram.png") no-repeat 50% 50%;
+  background-size: 70px;
+}
+
+footer .holder .right .item .instagram {
+  background: url("../img/instagram/intagram.png") no-repeat 50% 50%;
+  background-size: 55px;
+}
+
+footer .holder .right .item .twitter {
+  background: url("../img/twitter/twitter2.png") no-repeat 50% 50%;
+  background-size: 55px;
+}
+
+footer .holder .left {
+  width: 550px;
+  height: 100px;
+  padding: 40px;
+  float: left;
+  border-right: 1px solid black;
+}
+
+footer .holder .left .item {
+  margin: 20px 20px;
+  height: 40px;
+  line-height: 40px;
+  color: #000;
+  font-family: Irsans;
+}
+
+footer .holder .left .item span {
+  float: right;
+  padding: 0 4px;
+  height: 40px;
+  color: #FFF;
+  font-size: 15px;
+}
+
+footer .holder .left .item .icon {
+  float: right;
+  height: 40px;
+  width: 40px;
+  padding: 0 10px;
+}
+
+footer .holder .left .item .tel {
+  background: url("../img/phone/3.png") no-repeat 50% 50%;
+  background-size: 40px;
+}
+
+footer .holder .left .item .email {
+  background: url("../img/email/Untitled-3.png") no-repeat 50% 50%;
+  background-size: 55px;
+}
+
+footer > p {
+  font-family: Irsans;
+  color: #FFF;
+  padding: 0 25px;
+  line-height: 50px;
+}
 /*# sourceMappingURL=footer.css.map */
