@@ -88,4 +88,30 @@ body {
   background-size: 110px;
   font-family: "Comic Sans MS";
 }
+
+@media only screen and (max-width: 1280px) {
+  .topHeader {
+    height: 70px;
+  }
+  .topHeader .holder {
+    width: 960px;
+  }
+  .topHeader .holder nav {
+    width: 600px;
+    height: 70px;
+    margin-right: 25px;
+  }
+  .topHeader .holder nav .menu .item {
+    padding: 5px 15px;
+    margin: 0 5px;
+  }
+  .topHeader .holder .icon {
+    width: 250px;
+    line-height: 70px;
+    margin-left: 15px;
+    font-size: 25px;
+    height: 70px;
+    background-size: 90px;
+  }
+}
 /*# sourceMappingURL=header.css.map */
