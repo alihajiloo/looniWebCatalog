@@ -12,7 +12,7 @@
   width: 100%;
   height: auto;
   background: url("../img/iphonex.png") no-repeat 50% 150px, linear-gradient(-50deg, #34E89E, #0F3443);
-  background-size: 400px,100%;
+  background-size: 400px, 100%;
   text-align: center;
 }
 
@@ -59,7 +59,7 @@
 }
 
 .description {
-  height: 600px;
+  overflow: hidden;
   width: 1280px;
   margin: 0 auto;
 }
@@ -86,7 +86,7 @@
 }
 
 .description .mobileScreen {
-  height: 100%;
+  height: 600px;
   float: left;
   width: 30%;
 }
@@ -206,7 +206,7 @@
   font-family: Irsans;
   color: #666;
   font-size: 18px;
-  font-family: 20px;
+  line-height: 25px;
 }
 
 .contactUs .holder span {
@@ -218,13 +218,103 @@
   margin-right: 0;
   font-family: Irsans;
   font-size: 23px;
-  font-family: 20px;
 }
 
-.contactUs .holder span .line {
-  background: #999;
-  height: 1px;
-  width: 200px;
-  margin: 5px auto;
+@media only screen and (max-width: 1280px) {
+  .box1 {
+    background-size: 370px, 100%;
+  }
+  .box1 .holder {
+    width: 960px;
+    height: 450px;
+  }
+  .box1 .holder .slogan {
+    font-size: 45px;
+    color: #FFF;
+    top: 100px;
+  }
+  .description {
+    width: 960px;
+  }
+  .description article {
+    width: 510px;
+    padding: 50px 40px;
+  }
+  .description article header {
+    font-size: 30px;
+    padding: 50px 0;
+  }
+  .description article p {
+    font-size: 20px;
+  }
+  .description .mobileScreen {
+    height: 600px;
+    width: 320px;
+  }
+  .description .mobileScreen .mobile {
+    background-size: 270px;
+  }
+  .suggestion {
+    height: 60px;
+  }
+  .suggestion p {
+    line-height: 60px;
+    width: 960px;
+    font-size: 18px;
+  }
+  .points .holder {
+    width: 960px;
+    padding: 30px 20px;
+  }
+  .points .holder .item {
+    margin: 20px;
+    width: 200px;
+    height: 300px;
+  }
+  .points .holder .item .pic {
+    height: 160px;
+    width: 160px;
+  }
+  .points .holder .item p {
+    line-height: 20px;
+    padding-bottom: 10px;
+    font-size: 15px;
+  }
+  .points .holder .it1 .pic {
+    background: url("../img/fingerPrint/fingerPrint2.png") no-repeat 50% 50%;
+    background-size: 130px;
+  }
+  .points .holder .it2 .pic {
+    background: url("../img/speed/speed.png") no-repeat 50% 50%;
+    background-size: 120px;
+  }
+  .points .holder .it3 .pic {
+    background: url("../img/rahat/asan.png") no-repeat 65% 40%;
+    background-size: 100px;
+  }
+  .points .holder .it4 .pic {
+    background: url("../img/behine sazi/behine sazi.png") no-repeat 45% 50%;
+    background-size: 110px;
+  }
+  .contactUs .holder {
+    width: 960px;
+  }
+  .contactUs .holder h2 {
+    font-size: 26px;
+  }
+  .contactUs .holder > p {
+    padding: 10px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .contactUs .holder span {
+    font-size: 20px;
+  }
+  .contactUs .holder span .line {
+    background: #999;
+    height: 1px;
+    width: 200px;
+    margin: 5px auto;
+  }
 }
 /*# sourceMappingURL=content.css.map */

@@ -5,61 +5,68 @@
     width: 100%;
     height: auto;
     background: url("../img/iphonex.png") no-repeat 50% 150px, linear-gradient(-50deg, $bg-color1, $bg-color2);
-    background-size:400px,100% ;
+    background-size: 400px, 100%;
     text-align: center;
-    .holder{
+
+    .holder {
         position: relative;
         width: 1280px;
         height: 500px;
         margin: 0 auto;
+
         .appBox {
             position: absolute;
-            top:20px;
-            left:30px;
+            top: 20px;
+            left: 30px;
             padding: 0 20px;
             display: inline-block;
             border-radius: 25px;
             line-height: 50px;
-            color:$txtColorOnBg;
-            background: rgba(255,255,255,.2);
-            box-shadow: 0px 3px 4px 1px rgba(0,0,0,.4);
+            color: $txtColorOnBg;
+            background: rgba(255, 255, 255, .2);
+            box-shadow: 0px 3px 4px 1px rgba(0, 0, 0, .4);
             text-decoration: none;
             font-family: $font;
             transition: .1s;
+
             &:hover {
-                background: rgba(255,255,255,.3);
-                top:23px;
+                background: rgba(255, 255, 255, .3);
+                top: 23px;
                 box-shadow: none;
                 transition: .2s;
             }
         }
+
         .slogan {
             font-family: $font;
             font-size: 50px;
             color: $txtColorOnBg;
             position: relative;
-            top:100px;
+            top: 100px;
 
         }
     }
-    
+
 }
 
 .description {
-    height: 600px;
-    width:1280px;
+    overflow: hidden;
+    width: 1280px;
     margin: 0 auto;
-    article{
-        float:right;
+
+    article {
+        float: right;
         width: 810px;
         padding: 70px 40px;
-        header{
+
+        header {
             font-family: $font;
             font-size: 35px;
             padding: 50px 0;
             color: $txtColor1;
         }
-        p{
+
+        p {
             font-family: $font;
             font-size: 25px;
             line-height: 40px;
@@ -69,18 +76,20 @@
         }
 
     }
+
     .mobileScreen {
-        height: 100%;
+        height: 600px;
         float: left;
         width: 30%;
-        .mobile{
+
+        .mobile {
             width: 100%;
             height: 100%;
             background: url("../img/iphonex.png") no-repeat 50% 50%;
             background-size: 300px;
 
             position: relative;
-            top:0;
+            top: 0;
             bottom: 0;
             left: 0;
             right: 0;
@@ -91,7 +100,8 @@
 .suggestion {
     background: linear-gradient(-50deg, $bg-color2, $bg-color1);
     height: 70px;
-    p{
+
+    p {
         line-height: 70px;
         text-align: center;
         color: $txtColorOnBg;
@@ -104,21 +114,24 @@
 
 .points {
     overflow: hidden;
+
     .holder {
         overflow: hidden;
         width: 1240px;
         padding: 30px 20px;
         margin: 0 auto;
         text-align: center;
+
         .item {
             float: right;
-            margin: 20px ;
+            margin: 20px;
             width: 270px;
             height: 390px;
+
             .pic {
                 background: #FFF;
-                box-shadow: 0px 3px 8px 1px rgba(0,0,0,.5);
-                border-radius:100px ;
+                box-shadow: 0px 3px 8px 1px rgba(0, 0, 0, .5);
+                border-radius: 100px;
                 display: inline-block;
                 margin: 20px;
                 height: 200px;
@@ -127,16 +140,16 @@
 
             .title {
                 font-family: $font;
-                color:#3F5EAB;
+                color: #3F5EAB;
                 padding-bottom: 20px;
                 font-size: 25px;
             }
 
-            p{
+            p {
                 display: inline-block;
                 height: 80px;
                 font-family: $font;
-                color:$txtColor2;
+                color: $txtColor2;
                 line-height: 25px;
                 padding-bottom: 15px;
                 font-size: 18px;
@@ -144,28 +157,28 @@
         }
 
         .it1 .pic {
-            background: url("../img/fingerPrint/fingerPrint2.png") no-repeat 50% 50% ;
+            background: url("../img/fingerPrint/fingerPrint2.png") no-repeat 50% 50%;
             background-size: 160px;
         }
 
         .it2 .pic {
-            background: url("../img/speed/speed.png") no-repeat 50% 50% ;
+            background: url("../img/speed/speed.png") no-repeat 50% 50%;
             background-size: 140px;
         }
 
         .it3 .pic {
-            background: url("../img/rahat/asan.png") no-repeat 65% 40% ;
+            background: url("../img/rahat/asan.png") no-repeat 65% 40%;
             background-size: 120px;
         }
 
         .it4 .pic {
-            background: url("../img/behine sazi/behine sazi.png") no-repeat 45% 50% ;
+            background: url("../img/behine sazi/behine sazi.png") no-repeat 45% 50%;
             background-size: 130px;
         }
     }
 }
 
-.contactUs{
+.contactUs {
     background: #F4F4F4;
     overflow: hidden;
 
@@ -179,12 +192,12 @@
             font-size: 30px;
         }
 
-        & > p {
+        &>p {
             padding: 20px;
             font-family: $font;
             color: $txtColor2;
             font-size: 18px;
-            font-family: 20px;
+            line-height: 25px;
         }
 
         span {
@@ -196,15 +209,145 @@
             margin-right: 0;
             font-family: $font;
             font-size: 23px;
-            font-family: 20px;
-
-            .line {
-                background: #999;
-                height: 1px;
-                width: 200px;
-                margin: 5px auto;
-            }
 
         }
     }
 }
+
+
+
+@media only screen and (min-width: 1280px) {}
+
+@media only screen and (max-width: 1280px) {
+    .box1 {
+        background-size: 370px, 100%;
+        .holder {
+            width: 960px;
+            height: 450px;
+
+            .slogan {
+                font-size: 45px;
+                color: $txtColorOnBg;
+                top: 100px;
+    
+            }
+        }
+    }
+
+    .description {
+        width: 960px;
+    
+        article {
+            width: 510px;
+            padding: 50px 40px;
+    
+            header {
+                font-size: 30px;
+                padding: 50px 0;
+            }
+    
+            p {
+                font-size: 20px;
+            }
+    
+        }
+    
+        .mobileScreen {
+            height: 600px;
+            width: 320px;
+    
+            .mobile {
+                background-size: 270px;
+            }
+        }
+    }
+
+    .suggestion {
+        height: 60px;
+    
+        p {
+            line-height: 60px;
+            width: 960px;
+            font-size: 18px;
+        }
+    }
+
+    .points {
+        .holder {
+            width: 960px;
+            padding: 30px 20px;
+    
+            .item {
+                margin: 20px;
+                width: 200px;
+                height: 300px;
+    
+                .pic {
+                    height: 160px;
+                    width: 160px;
+                }
+    
+                p {
+                    line-height: 20px;
+                    padding-bottom: 10px;
+                    font-size: 15px;
+                }
+            }
+    
+            .it1 .pic {
+                background: url("../img/fingerPrint/fingerPrint2.png") no-repeat 50% 50%;
+                background-size: 130px;
+            }
+    
+            .it2 .pic {
+                background: url("../img/speed/speed.png") no-repeat 50% 50%;
+                background-size: 120px;
+            }
+    
+            .it3 .pic {
+                background: url("../img/rahat/asan.png") no-repeat 65% 40%;
+                background-size: 100px;
+            }
+    
+            .it4 .pic {
+                background: url("../img/behine sazi/behine sazi.png") no-repeat 45% 50%;
+                background-size: 110px;
+            }
+        }
+    }
+
+    .contactUs {
+        .holder {
+            width: 960px;
+    
+            h2 {
+                font-size: 26px;
+            }
+    
+            &>p {
+                padding: 10px;
+                font-size: 15px;
+                line-height: 20px;
+            }
+    
+            span {
+                font-size: 20px;
+    
+                .line {
+                    background: #999;
+                    height: 1px;
+                    width: 200px;
+                    margin: 5px auto;
+                }
+    
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 960px) {}
+
+@media only screen and (max-width: 767px) {}
+
+@media only screen and (max-width: 480px) {}
