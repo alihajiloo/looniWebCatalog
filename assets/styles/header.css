@@ -33,7 +33,6 @@ body {
   width: 800px;
   height: 80px;
   margin-right: 25px;
-  overflow: hidden;
   position: relative;
 }
 
@@ -43,6 +42,8 @@ body {
 
 .topHeader .holder nav .icon {
   display: none;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
 .topHeader .holder nav .menu {
@@ -76,7 +77,7 @@ body {
   border-bottom: 2px solid #FFF;
 }
 
-.topHeader .holder .icon {
+.topHeader .holder > .icon {
   float: left;
   width: 300px;
   line-height: 80px;
@@ -105,7 +106,7 @@ body {
     padding: 5px 15px;
     margin: 0 5px;
   }
-  .topHeader .holder .icon {
+  .topHeader .holder > .icon {
     width: 250px;
     line-height: 70px;
     margin-left: 15px;
@@ -132,13 +133,135 @@ body {
     margin: 0 2px;
     font-size: 15px;
   }
-  .topHeader .holder .icon {
+  .topHeader .holder > .icon {
     width: 230px;
     line-height: 65px;
     margin-left: 15px;
     font-size: 20px;
     height: 65px;
     background-size: 80px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .topHeader {
+    height: 60px;
+    position: relative;
+  }
+  .topHeader .holder {
+    width: 100%;
+  }
+  .topHeader .holder nav {
+    float: right;
+    width: 70px;
+    height: 60px;
+    margin-right: 10px;
+    position: relative;
+  }
+  .topHeader .holder nav input:checked ~ .menu {
+    right: -10px;
+  }
+  .topHeader .holder nav input:checked ~ .icon {
+    -webkit-transform: translate(-100px, 0);
+            transform: translate(-100px, 0);
+    -webkit-transition: .5s .03s;
+    transition: .5s .03s;
+  }
+  .topHeader .holder nav input:checked ~ .icon .line {
+    background: gray;
+  }
+  .topHeader .holder nav input:checked ~ .icon .line:nth-child(3) {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translate(-215px, -10px) rotate(810deg);
+            transform: translate(-215px, -10px) rotate(810deg);
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  .topHeader .holder nav input:checked ~ .icon .line:nth-child(1) {
+    -webkit-transform: translate(0px, 11px) rotate(405deg);
+            transform: translate(0px, 11px) rotate(405deg);
+  }
+  .topHeader .holder nav input:checked ~ .icon .line:nth-child(2) {
+    -webkit-transform: rotate(-405deg);
+            transform: rotate(-405deg);
+  }
+  .topHeader .holder nav .icon {
+    display: block;
+    z-index: 40;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 10px;
+    right: 10px;
+    text-align: center;
+  }
+  .topHeader .holder nav .icon .line {
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    z-index: 20;
+    margin: 7px auto;
+    width: 80%;
+    height: 4px;
+    background: #FFF;
+    border-radius: 3px;
+  }
+  .topHeader .holder nav .icon label {
+    z-index: 50;
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+  }
+  .topHeader .holder nav .menu {
+    z-index: 30;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    position: absolute;
+    height: auto;
+    overflow: hidden;
+    width: 170px;
+    border-radius: 5px;
+    top: 143px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    right: -180px;
+    -webkit-box-shadow: 2px 2px 15px 1px rgba(190, 190, 190, 0.4);
+            box-shadow: 2px 2px 15px 1px rgba(190, 190, 190, 0.4);
+    background: #fff;
+  }
+  .topHeader .holder nav .menu .item {
+    color: #666;
+    float: none;
+    padding: 15px 2px;
+    margin: 0 0px;
+    -webkit-transition: .6s;
+    transition: .6s;
+    font-family: Irsans;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  .topHeader .holder nav .menu .item:not(.sel):hover {
+    border: 0;
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+  .topHeader .holder nav .menu .sel {
+    border-bottom: 2px solid #0F3443;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, #fff), to(#34E89E));
+    background: linear-gradient(#fff 60%, #34E89E);
+  }
+  .topHeader .holder > .icon {
+    text-align: right;
+    width: 100px;
+    line-height: 60px;
+    margin-left: 10px;
+    font-size: 15px;
+    height: 60px;
+    background-size: 60px;
   }
 }
 /*# sourceMappingURL=header.css.map */

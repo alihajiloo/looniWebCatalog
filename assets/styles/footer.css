@@ -197,7 +197,8 @@ footer > p {
   }
   footer > p {
     padding: 0 15px;
-    line-height: 30px;
+    line-height: 25px;
+    font-size: 15px;
   }
 }
 /*# sourceMappingURL=footer.css.map */
