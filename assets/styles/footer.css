@@ -112,4 +112,19 @@ footer > p {
   padding: 0 25px;
   line-height: 50px;
 }
+
+@media only screen and (max-width: 1280px) {
+  footer .holder {
+    width: 960px;
+  }
+  footer .holder .right {
+    width: 380px;
+  }
+  footer .holder .left {
+    width: 390px;
+  }
+  footer > p {
+    line-height: 40px;
+  }
+}
 /*# sourceMappingURL=footer.css.map */
