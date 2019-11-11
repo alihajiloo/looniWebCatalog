@@ -429,7 +429,17 @@
     .contactUs {
         .holder {
             width: 767px;
-            
+            span {
+                display: inline-block;
+                text-align: center;
+                width: 100%;
+                padding: 0px;
+                margin-left: 0;
+                margin-right: 0;
+                font-family: $font;
+                font-size: 23px;
+    
+            }
         }
     }
 }

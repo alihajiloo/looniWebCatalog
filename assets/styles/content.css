@@ -382,5 +382,15 @@
   .contactUs .holder {
     width: 767px;
   }
+  .contactUs .holder span {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    padding: 0px;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: Irsans;
+    font-size: 23px;
+  }
 }
 /*# sourceMappingURL=content.css.map */

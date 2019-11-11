@@ -135,7 +135,99 @@ footer {
     }
 }
 
-@media only screen and (max-width: 960px) {}
+@media only screen and (max-width: 960px) {
+    footer {
+        margin-top: 20px;
+        padding-top: 40px;
+    
+        .holder {
+            width: 767px;
+    
+            .right{
+                width: 280px;
+                height: 40px;
+                padding: 50px;
+    
+    
+                header {
+                    font-size: 15px;
+                    margin: 0 5px;
+                }
+    
+                .item {
+                    display: inline-block;
+                    height: 30px;
+                    width: 30px;
+                    margin: 15px 3px;
+    
+                    .telegram {
+                        background: url("../img/telegram/telegram.png") no-repeat 50% 50%;
+                        background-size:60px ;
+                    }
+        
+                    .instagram {
+                        background: url("../img/instagram/intagram.png") no-repeat 50% 50%;
+                        background-size:45px ;
+                    }
+        
+                    .twitter {
+                        background: url("../img/twitter/twitter2.png") no-repeat 50% 50%;
+                        background-size:45px ;
+                    }
+                }
+    
+            }
+    
+            .left{
+                width: 330px;
+                height: 100px;
+                padding: 20px;
+                float: left;
+    
+                .item {
+                    margin: 20px 0px;
+                    height: 30px;
+                    line-height: 30px;
+    
+                    span {
+                        float: right;
+                        padding: 0 2px;
+                        height: 30px;
+                        color: $txtColorOnBg;
+                        font-size: 13px;
+    
+                    }
+    
+                    .icon {
+                        float: right;
+                        height: 30px;
+                        width: 30px;
+                        padding: 0 10px;
+    
+                        
+    
+                        
+                    }
+                    .tel {
+                        background: url("../img/phone/3.png") no-repeat 50% 50%;
+                        background-size:30px ;
+                    }
+                    .email {
+                        background: url("../img/email/Untitled-3.png") no-repeat 50% 50%;
+                        background-size:45px ;
+                    }
+    
+                }
+                
+            }
+        }
+    
+        & > p {
+            padding: 0 15px;
+            line-height: 30px;
+        }
+    }
+}
 
 @media only screen and (max-width: 767px) {}
 
