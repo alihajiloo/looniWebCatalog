@@ -97,18 +97,39 @@ body{
                 background-size: 90px;
             }
         }
-
-        
-
-        
-
-        
     }
 
-    
 }
 @media  only screen and (max-width: 960px) {
+    .topHeader {
+        height: 65px;
 
+        .holder {
+            width: 767px;
+
+            nav {
+                width: 450px;
+                height: 65px;
+                margin-right:20px ;
+                .menu {
+                    .item {
+                        padding: 5px 8px;
+                        margin:0 2px;
+                        font-size: 15px;
+                    }
+                }
+            }
+
+            .icon {
+                width:230px;
+                line-height: 65px;
+                margin-left:15px ;
+                font-size:20px;
+                height: 65px;
+                background-size: 80px;
+            }
+        }
+    }
 }
 @media  only screen and (max-width: 767px) {
 

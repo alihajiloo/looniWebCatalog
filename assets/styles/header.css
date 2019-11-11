@@ -114,4 +114,31 @@ body {
     background-size: 90px;
   }
 }
+
+@media only screen and (max-width: 960px) {
+  .topHeader {
+    height: 65px;
+  }
+  .topHeader .holder {
+    width: 767px;
+  }
+  .topHeader .holder nav {
+    width: 450px;
+    height: 65px;
+    margin-right: 20px;
+  }
+  .topHeader .holder nav .menu .item {
+    padding: 5px 8px;
+    margin: 0 2px;
+    font-size: 15px;
+  }
+  .topHeader .holder .icon {
+    width: 230px;
+    line-height: 65px;
+    margin-left: 15px;
+    font-size: 20px;
+    height: 65px;
+    background-size: 80px;
+  }
+}
 /*# sourceMappingURL=header.css.map */
