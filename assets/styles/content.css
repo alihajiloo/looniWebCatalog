@@ -317,4 +317,70 @@
     margin: 5px auto;
   }
 }
+
+@media only screen and (max-width: 960px) {
+  .box1 {
+    background: url("../img/iphonex.png") no-repeat 50% 130px, linear-gradient(-50deg, #34E89E, #0F3443);
+    background-size: 330px, 100%;
+  }
+  .box1 .holder {
+    width: 767px;
+    height: 370px;
+  }
+  .box1 .holder .slogan {
+    font-size: 35px;
+    color: #FFF;
+    top: 80px;
+  }
+  .description {
+    width: 767px;
+  }
+  .description article {
+    width: 400px;
+    padding: 40px 30px;
+  }
+  .description article header {
+    font-size: 25px;
+    padding: 40px 0;
+  }
+  .description article p {
+    font-size: 18px;
+  }
+  .description .mobileScreen {
+    height: 580px;
+    width: 280px;
+  }
+  .description .mobileScreen .mobile {
+    background-size: 270px;
+  }
+  .suggestion {
+    height: 55px;
+  }
+  .suggestion p {
+    line-height: 55px;
+    width: 767px;
+    font-size: 18px;
+  }
+  .points .holder {
+    width: 767px;
+    padding: 10px 10px;
+  }
+  .points .holder .item {
+    margin: 30px;
+    width: 320px;
+    height: 280px;
+  }
+  .points .holder .item .pic {
+    height: 160px;
+    width: 160px;
+  }
+  .points .holder .item p {
+    line-height: 20px;
+    padding-bottom: 10px;
+    font-size: 15px;
+  }
+  .contactUs .holder {
+    width: 767px;
+  }
+}
 /*# sourceMappingURL=content.css.map */

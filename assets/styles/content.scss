@@ -346,7 +346,93 @@
 
 }
 
-@media only screen and (max-width: 960px) {}
+@media only screen and (max-width: 960px) {
+    .box1 {
+        background: url("../img/iphonex.png") no-repeat 50% 130px, linear-gradient(-50deg, $bg-color1, $bg-color2);
+        background-size: 330px, 100%;
+        .holder {
+            width: 767px;
+            height: 370px;
+
+            .slogan {
+                font-size: 35px;
+                color: $txtColorOnBg;
+                top: 80px;
+    
+            }
+        }
+    }
+
+    .description {
+        width: 767px;
+    
+        article {
+            width: 400px;
+            padding: 40px 30px;
+    
+            header {
+                font-size: 25px;
+                padding: 40px 0;
+            }
+    
+            p {
+                font-size: 18px;
+            }
+    
+        }
+    
+        .mobileScreen {
+            height: 580px;
+            width: 280px;
+    
+            .mobile {
+                background-size: 270px;
+            }
+        }
+    }
+
+    .suggestion {
+        height: 55px;
+    
+        p {
+            line-height: 55px;
+            width: 767px;
+            font-size: 18px;
+        }
+    }
+
+    .points {
+        .holder {
+            width: 767px;
+            padding: 10px 10px;
+    
+            .item {
+                margin: 30px;
+                width: 320px;
+                height: 280px;
+    
+                .pic {
+                    height: 160px;
+                    width: 160px;
+                }
+    
+                p {
+                    line-height: 20px;
+                    padding-bottom: 10px;
+                    font-size: 15px;
+                }
+            }
+    
+        }
+    }
+
+    .contactUs {
+        .holder {
+            width: 767px;
+            
+        }
+    }
+}
 
 @media only screen and (max-width: 767px) {}
 
