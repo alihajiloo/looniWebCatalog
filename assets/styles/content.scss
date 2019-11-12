@@ -2,9 +2,10 @@
 
 
 .box1 {
+    padding-top: 80px;
     width: 100%;
     height: auto;
-    background: url("../img/iphonex.png") no-repeat 50% 150px, linear-gradient(-50deg, $bg-color1, $bg-color2);
+    background: url("../img/iphonex.png") no-repeat 50% 210px, linear-gradient(-50deg, $bg-color1, $bg-color2);
     background-size: 400px, 100%;
     text-align: center;
 
@@ -42,7 +43,7 @@
             font-size: 50px;
             color: $txtColorOnBg;
             position: relative;
-            top: 100px;
+            top: 60px;
 
         }
     }
@@ -228,7 +229,7 @@
             .slogan {
                 font-size: 45px;
                 color: $txtColorOnBg;
-                top: 100px;
+                top: 70px;
     
             }
         }
@@ -348,7 +349,7 @@
 
 @media only screen and (max-width: 960px) {
     .box1 {
-        background: url("../img/iphonex.png") no-repeat 50% 130px, linear-gradient(-50deg, $bg-color1, $bg-color2);
+        background: url("../img/iphonex.png") no-repeat 50% 180px, linear-gradient(-50deg, $bg-color1, $bg-color2);
         background-size: 330px, 100%;
         .holder {
             width: 767px;
@@ -357,7 +358,7 @@
             .slogan {
                 font-size: 35px;
                 color: $txtColorOnBg;
-                top: 80px;
+                top: 60px;
     
             }
         }

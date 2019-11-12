@@ -1,12 +1,12 @@
-#images
-*.png
-*.ai
-*.jpg
-*.psd
-*.Svg
+# #images
+# *.png
+# *.ai
+# *.jpg
+# *.psd
+# *.Svg
 
-#fonts
-*.ttf
-*.woff
-*.woff2
-*.eot
+# #fonts
+# *.ttf
+# *.woff
+# *.woff2
+# *.eot

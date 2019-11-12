@@ -9,9 +9,10 @@
 }
 
 .box1 {
+  padding-top: 80px;
   width: 100%;
   height: auto;
-  background: url("../img/iphonex.png") no-repeat 50% 150px, linear-gradient(-50deg, #34E89E, #0F3443);
+  background: url("../img/iphonex.png") no-repeat 50% 210px, linear-gradient(-50deg, #34E89E, #0F3443);
   background-size: 400px, 100%;
   text-align: center;
 }
@@ -55,7 +56,7 @@
   font-size: 50px;
   color: #FFF;
   position: relative;
-  top: 100px;
+  top: 60px;
 }
 
 .description {
@@ -231,7 +232,7 @@
   .box1 .holder .slogan {
     font-size: 45px;
     color: #FFF;
-    top: 100px;
+    top: 70px;
   }
   .description {
     width: 960px;
@@ -320,7 +321,7 @@
 
 @media only screen and (max-width: 960px) {
   .box1 {
-    background: url("../img/iphonex.png") no-repeat 50% 130px, linear-gradient(-50deg, #34E89E, #0F3443);
+    background: url("../img/iphonex.png") no-repeat 50% 180px, linear-gradient(-50deg, #34E89E, #0F3443);
     background-size: 330px, 100%;
   }
   .box1 .holder {
@@ -330,7 +331,7 @@
   .box1 .holder .slogan {
     font-size: 35px;
     color: #FFF;
-    top: 80px;
+    top: 60px;
   }
   .description {
     width: 767px;
