@@ -19,6 +19,7 @@ footer {
 
 footer .holder {
   width: 1280px;
+  overflow: hidden;
   margin: 0 auto;
 }
 
@@ -66,9 +67,9 @@ footer .holder .right .item .twitter {
 }
 
 footer .holder .left {
-  width: 550px;
-  height: 100px;
-  padding: 40px;
+  width: 600px;
+  height: 120px;
+  padding: 15px;
   float: left;
   border-right: 1px solid black;
 }
@@ -107,6 +108,7 @@ footer .holder .left .item .email {
 }
 
 footer > p {
+  display: inline-block;
   font-family: Irsans;
   color: #FFF;
   padding: 0 25px;
@@ -121,7 +123,7 @@ footer > p {
     width: 380px;
   }
   footer .holder .left {
-    width: 390px;
+    width: 430px;
   }
   footer > p {
     line-height: 40px;
@@ -137,9 +139,9 @@ footer > p {
     width: 767px;
   }
   footer .holder .right {
-    width: 280px;
+    width: 340px;
     height: 40px;
-    padding: 50px;
+    padding: 50px 20px;
   }
   footer .holder .right header {
     font-size: 15px;
@@ -164,7 +166,7 @@ footer > p {
     background-size: 45px;
   }
   footer .holder .left {
-    width: 330px;
+    width: 340px;
     height: 100px;
     padding: 20px;
     float: left;
@@ -199,6 +201,87 @@ footer > p {
     padding: 0 15px;
     line-height: 25px;
     font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  footer {
+    margin-top: 20px;
+    padding-top: 40px;
+  }
+  footer .holder {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+  }
+  footer .holder .right {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    text-align: center;
+  }
+  footer .holder .right header {
+    text-align: center;
+    font-size: 15px;
+    margin: 0 5px;
+  }
+  footer .holder .right .item {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin: 15px 3px;
+  }
+  footer .holder .right .item .telegram {
+    background: url("../img/telegram/telegram.png") no-repeat 50% 50%;
+    background-size: 60px;
+  }
+  footer .holder .right .item .instagram {
+    background: url("../img/instagram/intagram.png") no-repeat 50% 50%;
+    background-size: 45px;
+  }
+  footer .holder .right .item .twitter {
+    background: url("../img/twitter/twitter2.png") no-repeat 50% 50%;
+    background-size: 45px;
+  }
+  footer .holder .left {
+    float: none;
+    border: 0 none;
+    width: auto;
+    height: auto;
+    padding: 0;
+    display: inline-block;
+  }
+  footer .holder .left .item {
+    width: unset;
+    margin: 10px auto;
+    height: 30px;
+    line-height: 30px;
+  }
+  footer .holder .left .item span {
+    float: right;
+    padding: 0 2px;
+    height: 30px;
+    color: #FFF;
+    font-size: 13px;
+  }
+  footer .holder .left .item .icon {
+    float: right;
+    height: 30px;
+    width: 30px;
+    padding: 0 10px;
+  }
+  footer .holder .left .item .tel {
+    background: url("../img/phone/3.png") no-repeat 50% 50%;
+    background-size: 30px;
+  }
+  footer .holder .left .item .email {
+    background: url("../img/email/Untitled-3.png") no-repeat 50% 50%;
+    background-size: 45px;
+  }
+  footer > p {
+    padding: 0 15px;
+    line-height: 30px;
+    font-size: 12px;
   }
 }
 /*# sourceMappingURL=footer.css.map */

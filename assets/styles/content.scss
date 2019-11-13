@@ -1,5 +1,8 @@
 @import 'variable';
 
+p {
+    text-justify: inter-word;
+}
 
 .box1 {
     //padding-top: 80px;
@@ -73,6 +76,8 @@
             line-height: 40px;
             padding: 40px 0;
             color: $txtColor2;
+            text-align: justify;
+            text-justify: inter-word;
 
         }
 
@@ -199,6 +204,8 @@
             color: $txtColor2;
             font-size: 18px;
             line-height: 25px;
+            text-align: justify;
+            text-justify: inter-word;
         }
 
         span {
@@ -210,6 +217,13 @@
             margin-right: 0;
             font-family: $font;
             font-size: 23px;
+
+            .line {
+                background: #999;
+                height: 1px;
+                width: 200px;
+                margin: 5px auto;
+            }
 
         }
     }
@@ -224,6 +238,7 @@
         background: url("../img/iphonex.png") no-repeat 50% 310px, linear-gradient(-50deg, $bg-color1, $bg-color2);
 
         background-size: 370px, 100%;
+
         .holder {
             width: 960px;
             height: 450px;
@@ -232,33 +247,33 @@
                 font-size: 45px;
                 color: $txtColorOnBg;
                 top: 190px;
-    
+
             }
         }
     }
 
     .description {
         width: 960px;
-    
+
         article {
             width: 510px;
             padding: 50px 40px;
-    
+
             header {
                 font-size: 30px;
                 padding: 50px 0;
             }
-    
+
             p {
                 font-size: 20px;
             }
-    
+
         }
-    
+
         .mobileScreen {
             height: 600px;
             width: 320px;
-    
+
             .mobile {
                 background-size: 270px;
             }
@@ -267,7 +282,7 @@
 
     .suggestion {
         height: 60px;
-    
+
         p {
             line-height: 60px;
             width: 960px;
@@ -279,39 +294,39 @@
         .holder {
             width: 960px;
             padding: 30px 20px;
-    
+
             .item {
                 margin: 20px;
                 width: 200px;
                 height: 300px;
-    
+
                 .pic {
                     height: 160px;
                     width: 160px;
                 }
-    
+
                 p {
                     line-height: 20px;
                     padding-bottom: 10px;
                     font-size: 15px;
                 }
             }
-    
+
             .it1 .pic {
                 background: url("../img/fingerPrint/fingerPrint2.png") no-repeat 50% 50%;
                 background-size: 130px;
             }
-    
+
             .it2 .pic {
                 background: url("../img/speed/speed.png") no-repeat 50% 50%;
                 background-size: 120px;
             }
-    
+
             .it3 .pic {
                 background: url("../img/rahat/asan.png") no-repeat 65% 40%;
                 background-size: 100px;
             }
-    
+
             .it4 .pic {
                 background: url("../img/behine sazi/behine sazi.png") no-repeat 45% 50%;
                 background-size: 110px;
@@ -322,27 +337,27 @@
     .contactUs {
         .holder {
             width: 960px;
-    
+
             h2 {
                 font-size: 26px;
             }
-    
+
             &>p {
                 padding: 10px;
                 font-size: 15px;
-                line-height: 20px;
+                line-height: 25px;
             }
-    
+
             span {
                 font-size: 20px;
-    
+
                 .line {
                     background: #999;
                     height: 1px;
                     width: 200px;
                     margin: 5px auto;
                 }
-    
+
             }
         }
     }
@@ -351,9 +366,10 @@
 
 @media only screen and (max-width: 960px) {
     .box1 {
-        
+
         background: url("../img/iphonex.png") no-repeat 50% 250px, linear-gradient(-50deg, $bg-color1, $bg-color2);
         background-size: 330px, 100%;
+
         .holder {
             width: 767px;
             height: 370px;
@@ -362,33 +378,33 @@
                 font-size: 35px;
                 color: $txtColorOnBg;
                 top: 170px;
-    
+
             }
         }
     }
 
     .description {
         width: 767px;
-    
+
         article {
             width: 400px;
             padding: 40px 30px;
-    
+
             header {
                 font-size: 25px;
                 padding: 40px 0;
             }
-    
+
             p {
                 font-size: 18px;
             }
-    
+
         }
-    
+
         .mobileScreen {
             height: 580px;
             width: 280px;
-    
+
             .mobile {
                 background-size: 270px;
             }
@@ -397,7 +413,7 @@
 
     .suggestion {
         height: 55px;
-    
+
         p {
             line-height: 55px;
             width: 767px;
@@ -409,30 +425,31 @@
         .holder {
             width: 767px;
             padding: 10px 10px;
-    
+
             .item {
                 margin: 30px;
                 width: 320px;
                 height: 280px;
-    
+
                 .pic {
                     height: 160px;
                     width: 160px;
                 }
-    
+
                 p {
                     line-height: 20px;
                     padding-bottom: 10px;
                     font-size: 15px;
                 }
             }
-    
+
         }
     }
 
     .contactUs {
         .holder {
             width: 767px;
+
             span {
                 display: inline-block;
                 text-align: center;
@@ -442,7 +459,7 @@
                 margin-right: 0;
                 font-family: $font;
                 font-size: 23px;
-    
+
             }
         }
     }
@@ -450,9 +467,10 @@
 
 @media only screen and (max-width: 767px) {
     .box1 {
-        
+
         background: url("../img/iphonex.png") no-repeat 50% 220px, linear-gradient(-50deg, $bg-color1, $bg-color2);
         background-size: 60%, 100%;
+
         .holder {
             width: 100%;
             height: 370px;
@@ -460,41 +478,42 @@
             .appBox {
                 display: none;
             }
+
             .slogan {
                 font-size: 35px;
                 color: $txtColorOnBg;
                 text-align: center;
 
                 top: 150px;
-    
+
             }
         }
     }
 
     .description {
         width: 480px;
-    
+
         article {
             width: 260px;
             padding: 20px 10px;
-    
+
             header {
                 font-size: 20px;
                 padding: 20px 0;
             }
-    
+
             p {
                 padding: 20px 0;
                 line-height: 30px;
                 font-size: 13px;
             }
-    
+
         }
-    
+
         .mobileScreen {
             height: 480px;
             width: 160px;
-    
+
             .mobile {
                 background-size: 170px;
             }
@@ -503,7 +522,7 @@
 
     .suggestion {
         height: auto;
-    
+
         p {
             line-height: 45px;
             width: 100%;
@@ -515,14 +534,14 @@
         .holder {
             width: 480px;
             padding: 10px 10px;
-            
-    
+
+
             .item {
                 float: unset;
                 margin: 30px auto;
 
             }
-    
+
         }
     }
 
@@ -538,6 +557,7 @@
                 font-size: 15px;
                 line-height: 23px;
             }
+
             span {
                 display: inline-block;
                 text-align: center;
@@ -547,17 +567,18 @@
                 margin-right: 0;
                 font-family: $font;
                 font-size: 23px;
-    
+
             }
         }
     }
 
-    
+
 }
 
 @media only screen and (max-width: 480px) {
     .box1 {
         background-size: 80%, 100%;
+
         .holder {
             .slogan {
                 font-size: 30px;
@@ -567,29 +588,29 @@
 
     .description {
         width: 100%;
-    
+
         article {
             width: 59.5%;
             padding: 20px 0;
             line-height: 30px;
-    
+
             header {
                 font-size: 18px;
                 padding: 20px 10px;
             }
-    
+
             p {
                 padding: 10px 10px;
                 font-size: 13px;
                 line-height: 25px;
             }
-    
+
         }
-    
+
         .mobileScreen {
             height: 440px;
             width: 39.5%;
-    
+
             .mobile {
                 background-size: 110%;
             }
@@ -600,18 +621,18 @@
         .holder {
             width: 100%;
             padding: 10px 0px;
-    
+
             .item {
                 float: unset;
                 margin: 0 auto;
                 width: 90%;
                 height: auto;
-    
+
                 .pic {
                     height: 130px;
                     width: 130px;
                 }
-    
+
                 p {
                     line-height: 20px;
                     padding-bottom: 10px;
@@ -619,19 +640,19 @@
                     font-size: 15px;
                 }
             }
-    
+
             .it1 .pic {
                 background-size: 100px;
             }
-    
+
             .it2 .pic {
                 background-size: 90px;
             }
-    
+
             .it3 .pic {
                 background-size: 90px;
             }
-    
+
             .it4 .pic {
                 background-size: 90px;
             }
@@ -651,6 +672,7 @@
                 width: auto;
                 line-height: 23px;
             }
+
             span {
                 display: inline-block;
                 text-align: center;
@@ -660,6 +682,7 @@
                 margin-right: 0;
                 font-family: $font;
                 font-size: 23px;
+
                 .line {
                     width: 130px;
                 }
