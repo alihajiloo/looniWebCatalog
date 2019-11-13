@@ -11,7 +11,7 @@
 .box1 {
   width: 100%;
   height: 100vh;
-  background: url("../img/iphonex.png") no-repeat 50% 210px, linear-gradient(-50deg, #34E89E, #0F3443);
+  background: url("../img/iphonex.png") no-repeat 50% 410px, linear-gradient(-50deg, #34E89E, #0F3443);
   background-size: 400px, 100%;
   text-align: center;
 }
@@ -55,7 +55,7 @@
   font-size: 50px;
   color: #FFF;
   position: relative;
-  top: 140px;
+  top: 240px;
 }
 
 .description {
@@ -222,6 +222,7 @@
 
 @media only screen and (max-width: 1280px) {
   .box1 {
+    background: url("../img/iphonex.png") no-repeat 50% 310px, linear-gradient(-50deg, #34E89E, #0F3443);
     background-size: 370px, 100%;
   }
   .box1 .holder {
@@ -231,7 +232,7 @@
   .box1 .holder .slogan {
     font-size: 45px;
     color: #FFF;
-    top: 140px;
+    top: 190px;
   }
   .description {
     width: 960px;
@@ -320,7 +321,7 @@
 
 @media only screen and (max-width: 960px) {
   .box1 {
-    background: url("../img/iphonex.png") no-repeat 50% 180px, linear-gradient(-50deg, #34E89E, #0F3443);
+    background: url("../img/iphonex.png") no-repeat 50% 250px, linear-gradient(-50deg, #34E89E, #0F3443);
     background-size: 330px, 100%;
   }
   .box1 .holder {
@@ -330,7 +331,7 @@
   .box1 .holder .slogan {
     font-size: 35px;
     color: #FFF;
-    top: 120px;
+    top: 170px;
   }
   .description {
     width: 767px;
@@ -435,6 +436,42 @@
   .description .mobileScreen .mobile {
     background-size: 170px;
   }
+  .suggestion {
+    height: auto;
+  }
+  .suggestion p {
+    line-height: 45px;
+    width: 100%;
+    font-size: 13px;
+  }
+  .points .holder {
+    width: 480px;
+    padding: 10px 10px;
+  }
+  .points .holder .item {
+    float: unset;
+    margin: 30px auto;
+  }
+  .contactUs .holder {
+    width: 480px;
+  }
+  .contactUs .holder h2 {
+    font-size: 20px;
+  }
+  .contactUs .holder p {
+    font-size: 15px;
+    line-height: 23px;
+  }
+  .contactUs .holder span {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    padding: 0px;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: Irsans;
+    font-size: 23px;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -467,6 +504,62 @@
   }
   .description .mobileScreen .mobile {
     background-size: 110%;
+  }
+  .points .holder {
+    width: 100%;
+    padding: 10px 0px;
+  }
+  .points .holder .item {
+    float: unset;
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+  }
+  .points .holder .item .pic {
+    height: 130px;
+    width: 130px;
+  }
+  .points .holder .item p {
+    line-height: 20px;
+    padding-bottom: 10px;
+    height: auto;
+    font-size: 15px;
+  }
+  .points .holder .it1 .pic {
+    background-size: 100px;
+  }
+  .points .holder .it2 .pic {
+    background-size: 90px;
+  }
+  .points .holder .it3 .pic {
+    background-size: 90px;
+  }
+  .points .holder .it4 .pic {
+    background-size: 90px;
+  }
+  .contactUs .holder {
+    width: 100%;
+  }
+  .contactUs .holder h2 {
+    font-size: 20px;
+  }
+  .contactUs .holder p {
+    font-size: 15px;
+    width: auto;
+    line-height: 23px;
+  }
+  .contactUs .holder span {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: Irsans;
+    font-size: 23px;
+  }
+  .contactUs .holder span .line {
+    width: 130px;
   }
 }
 /*# sourceMappingURL=content.css.map */

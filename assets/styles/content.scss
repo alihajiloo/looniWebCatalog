@@ -5,7 +5,7 @@
     //padding-top: 80px;
     width: 100%;
     height: 100vh;
-    background: url("../img/iphonex.png") no-repeat 50% 210px, linear-gradient(-50deg, $bg-color1, $bg-color2);
+    background: url("../img/iphonex.png") no-repeat 50% 410px, linear-gradient(-50deg, $bg-color1, $bg-color2);
     background-size: 400px, 100%;
     text-align: center;
 
@@ -43,7 +43,7 @@
             font-size: 50px;
             color: $txtColorOnBg;
             position: relative;
-            top: 140px;
+            top: 240px;
 
         }
     }
@@ -221,6 +221,8 @@
 
 @media only screen and (max-width: 1280px) {
     .box1 {
+        background: url("../img/iphonex.png") no-repeat 50% 310px, linear-gradient(-50deg, $bg-color1, $bg-color2);
+
         background-size: 370px, 100%;
         .holder {
             width: 960px;
@@ -229,7 +231,7 @@
             .slogan {
                 font-size: 45px;
                 color: $txtColorOnBg;
-                top: 140px;
+                top: 190px;
     
             }
         }
@@ -350,7 +352,7 @@
 @media only screen and (max-width: 960px) {
     .box1 {
         
-        background: url("../img/iphonex.png") no-repeat 50% 180px, linear-gradient(-50deg, $bg-color1, $bg-color2);
+        background: url("../img/iphonex.png") no-repeat 50% 250px, linear-gradient(-50deg, $bg-color1, $bg-color2);
         background-size: 330px, 100%;
         .holder {
             width: 767px;
@@ -359,7 +361,7 @@
             .slogan {
                 font-size: 35px;
                 color: $txtColorOnBg;
-                top: 120px;
+                top: 170px;
     
             }
         }
@@ -499,6 +501,57 @@
         }
     }
 
+    .suggestion {
+        height: auto;
+    
+        p {
+            line-height: 45px;
+            width: 100%;
+            font-size: 13px;
+        }
+    }
+
+    .points {
+        .holder {
+            width: 480px;
+            padding: 10px 10px;
+            
+    
+            .item {
+                float: unset;
+                margin: 30px auto;
+
+            }
+    
+        }
+    }
+
+    .contactUs {
+        .holder {
+            width: 480px;
+
+            h2 {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 15px;
+                line-height: 23px;
+            }
+            span {
+                display: inline-block;
+                text-align: center;
+                width: 100%;
+                padding: 0px;
+                margin-left: 0;
+                margin-right: 0;
+                font-family: $font;
+                font-size: 23px;
+    
+            }
+        }
+    }
+
     
 }
 
@@ -542,5 +595,78 @@
             }
         }
     }
+
+    .points {
+        .holder {
+            width: 100%;
+            padding: 10px 0px;
+    
+            .item {
+                float: unset;
+                margin: 0 auto;
+                width: 90%;
+                height: auto;
+    
+                .pic {
+                    height: 130px;
+                    width: 130px;
+                }
+    
+                p {
+                    line-height: 20px;
+                    padding-bottom: 10px;
+                    height: auto;
+                    font-size: 15px;
+                }
+            }
+    
+            .it1 .pic {
+                background-size: 100px;
+            }
+    
+            .it2 .pic {
+                background-size: 90px;
+            }
+    
+            .it3 .pic {
+                background-size: 90px;
+            }
+    
+            .it4 .pic {
+                background-size: 90px;
+            }
+        }
+    }
+
+    .contactUs {
+        .holder {
+            width: 100%;
+
+            h2 {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 15px;
+                width: auto;
+                line-height: 23px;
+            }
+            span {
+                display: inline-block;
+                text-align: center;
+                width: 100%;
+                padding: 10px 0;
+                margin-left: 0;
+                margin-right: 0;
+                font-family: $font;
+                font-size: 23px;
+                .line {
+                    width: 130px;
+                }
+            }
+        }
+    }
+
+
 
 }
