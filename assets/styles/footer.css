@@ -54,7 +54,7 @@ footer .holder .right {
 footer .holder .right header {
   text-align: left;
   color: #FFF;
-  font-family: Irsans;
+  font-family: lightIrsans;
   font-size: 18px;
   margin: 0 5px;
 }
@@ -124,7 +124,7 @@ footer .holder .left .item .tel {
 
 footer .holder .left .item .email {
   background: url("../img/email/Untitled-3.png") no-repeat 50% 50%;
-  background-size: 55px;
+  background-size: 40px;
 }
 
 footer > p {
@@ -215,7 +215,7 @@ footer > p {
   }
   footer .holder .left .item .email {
     background: url("../img/email/Untitled-3.png") no-repeat 50% 50%;
-    background-size: 45px;
+    background-size: 35px;
   }
   footer > p {
     padding: 0 15px;
@@ -296,7 +296,7 @@ footer > p {
   }
   footer .holder .left .item .email {
     background: url("../img/email/Untitled-3.png") no-repeat 50% 50%;
-    background-size: 45px;
+    background-size: 30px;
   }
   footer > p {
     padding: 0 15px;

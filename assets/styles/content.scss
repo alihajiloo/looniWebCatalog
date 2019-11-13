@@ -71,7 +71,7 @@ p {
         }
 
         p {
-            font-family: $font;
+            font-family: $lightFont;
             font-size: 25px;
             line-height: 40px;
             padding: 40px 0;
@@ -113,7 +113,7 @@ p {
         color: $txtColorOnBg;
         width: 1280px;
         margin: 0 auto;
-        font-family: $font;
+        font-family: $boldFont;
         font-size: 20px;
     }
 }
@@ -145,7 +145,7 @@ p {
             }
 
             .title {
-                font-family: $font;
+                font-family: $boldFont;
                 color: #3F5EAB;
                 padding-bottom: 20px;
                 font-size: 25px;
@@ -154,7 +154,7 @@ p {
             p {
                 display: inline-block;
                 height: 80px;
-                font-family: $font;
+                font-family: $lightIrsans;
                 color: $txtColor2;
                 line-height: 25px;
                 padding-bottom: 15px;
