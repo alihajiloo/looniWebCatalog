@@ -41,6 +41,11 @@ body {
                 right: 0;
                 transform: translateY(-50%);
 
+                a{
+                    text-decoration: none;
+                    display: block;
+                }
+
                 .item {
                     color: #FFF;
                     float: right;
@@ -244,10 +249,11 @@ body {
 
 
                     .item {
-                        color: $txtColor2;
+                        color: $txtColor1;
                         float: none;
-                        padding: 15px 2px;
-                        margin: 0 0px;
+                        text-align: right;
+                        padding: 10px 25px;
+                        margin: 2px 0px;
                         transition: .6s;
                         font-family: $font;
                         font-size: 12px;
@@ -260,9 +266,16 @@ body {
                         }
                     }
 
-                    .sel {
-                        border-bottom: 2px solid $bg-color2;
-                        background: linear-gradient(#fff 60%, $bg-color1);
+                    li {
+                        line-height: 20px;
+                        display: inline;
+                        padding: 0 5px;
+                    }
+                    
+
+                    .sel li{
+                        border-bottom: 2px solid $bg-color1;
+                        
 
                     }
                 }

@@ -55,6 +55,11 @@ body {
           transform: translateY(-50%);
 }
 
+.topHeader .holder nav .menu a {
+  text-decoration: none;
+  display: block;
+}
+
 .topHeader .holder nav .menu .item {
   color: #FFF;
   float: right;
@@ -233,10 +238,11 @@ body {
     background: #fff;
   }
   .topHeader .holder nav .menu .item {
-    color: #666;
+    color: #000;
     float: none;
-    padding: 15px 2px;
-    margin: 0 0px;
+    text-align: right;
+    padding: 10px 25px;
+    margin: 2px 0px;
     -webkit-transition: .6s;
     transition: .6s;
     font-family: Irsans;
@@ -249,10 +255,13 @@ body {
     -webkit-transition: .5s;
     transition: .5s;
   }
-  .topHeader .holder nav .menu .sel {
-    border-bottom: 2px solid #0F3443;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, #fff), to(#34E89E));
-    background: linear-gradient(#fff 60%, #34E89E);
+  .topHeader .holder nav .menu li {
+    line-height: 20px;
+    display: inline;
+    padding: 0 5px;
+  }
+  .topHeader .holder nav .menu .sel li {
+    border-bottom: 2px solid #34E89E;
   }
   .topHeader .holder > .icon {
     text-align: right;
