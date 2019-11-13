@@ -4,6 +4,26 @@
 }
 
 @font-face {
+  font-family: boldIrsans;
+  src: url("../fonts/IRANSansWeb/IRANSansWeb(FaNum)_Bold.ttf");
+}
+
+@font-face {
+  font-family: lightIrsans;
+  src: url("../fonts/IRANSansWeb/IRANSansWeb(FaNum)_Light.ttf");
+}
+
+@font-face {
+  font-family: mediumIrsans;
+  src: url("../fonts/IRANSansWeb/IRANSansWeb(FaNum)_Medium.ttf");
+}
+
+@font-face {
+  font-family: ultraLightIrsans;
+  src: url("../fonts/IRANSansWeb/IRANSansWeb(FaNum)_UltraLight.ttf");
+}
+
+@font-face {
   font-family: Irsansmobile;
   src: url("../fonts/MobileFontsnum/IRANSansMobile(FaNum).ttf");
 }
